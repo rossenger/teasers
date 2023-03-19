@@ -1,0 +1,271 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'raleway', sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: #484A35;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 600px) {
+
+.loaderAnimationContainer {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    background-color: #484A35;
+}
+
+.heroLogo {
+    display: flex;
+    justify-content: center;
+    width: 376px;
+    height: 376px;
+    z-index: 3;
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 133px;
+    height: 133px;
+}
+
+.welcomeH1 {
+    margin: 0 auto;
+    width: 312px;
+    left: 39px;
+    top: 298px;
+    font-family: 'raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 108.02%;
+    color: #DDD8A9;
+    padding-top: 150px;
+}
+
+.welcomeH1 span {
+    
+    width: 312px;
+    height: 116px;
+    left: 39px;
+    top: 298px;
+    font-family: 'raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 108.02%;
+    color: #DDD8A9;
+}
+
+#regular {
+    width: 312px;
+    height: 116px;
+    left: 39px;
+    top: 298px;
+    font-family: 'raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 108.02%;
+    color: #DDD8A9;
+}
+
+.welcomeSubhead {
+    margin: 0 auto;
+    transform: translateX(-22px);
+    width: 269px;
+    height: 104px;
+    left: 39px;
+    top: 428px;
+    font-family: 'raleway', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 127.02%;
+    color: #FFFFFF;
+    padding-top: 14px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.centeredArrow {
+    padding-top: 65px;
+    width: 24px;
+    height: 40px;
+    
+}
+
+
+
+h3 {
+    width: 277px;
+    font-family: 'raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 110.5%;
+    color: #DDD8A9;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.subhead {
+    margin: 0 auto;
+    width: 269px;
+    height: 104px;
+  
+   
+    font-family: 'raleway', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 127.02%;
+    color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 40px;
+}
+
+.teaCourseButton {
+    background-color: #DDD8A9;
+    color: #484A35;
+    border-radius: 5px;
+    border: none;
+    font-family: 'raleway', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    width: 171px;
+    margin-bottom: 30px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dontWorryBeHappy {
+    width: 191px;
+    left: 100px;
+    top: 596px;
+    font-family: 'raleway', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+    transform: translateY(-18px);
+}
+
+.teaCup {
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   padding-bottom: 20px;
+}
+
+.teaCup img {
+    width: 34px;
+    height: 41px;
+    padding-top: 24px;
+    padding-right: 24px;
+}
+
+h2 {
+    font-family: 'raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 90.02%;
+    color: #DDD8A9;
+    padding-left: 24px;
+}
+
+.backgroundImage img {
+    width: 342px;
+    height: 228px;
+    padding-left: 24px;
+    padding-top: 12px;
+}
+
+.crashCourseText {
+    font-family: 'raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-left: 24px;
+    padding-top: 20px;
+    width: 340px;
+}
+
+
+.arrowContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.leftArrow img {
+    padding-right: 145px;
+    padding-top: 150px;
+    width: 24px;
+    height: 40px;
+}
+
+.rightArrow img {
+    padding-left: 145px;
+    padding-top: 150px;
+    width: 24px;
+    height: 40px;
+}
+
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+   
+}
+
+#carouselExampleCaptions {
+    width: 100%;
+    max-width: 342px;
+    height: auto;
+}
+
+#carouselExampleCaptions .carousel-item img {
+    object-fit: contain;
+    object-position: center;
+    overflow: hidden;
+    height: 50vh;
+}
+
+
+}
+
+
